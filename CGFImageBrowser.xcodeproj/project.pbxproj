@@ -15,6 +15,10 @@
 		044B7C8A221D4A7000103D21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B7C89221D4A7000103D21 /* main.m */; };
 		044B7C94221D4A7000103D21 /* CGFImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B7C93221D4A7000103D21 /* CGFImageBrowserTests.m */; };
 		044B7C9F221D4A7000103D21 /* CGFImageBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B7C9E221D4A7000103D21 /* CGFImageBrowserUITests.m */; };
+		04F957112230C6A100BCD27B /* CGFImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F957102230C6A100BCD27B /* CGFImageBrowserViewController.m */; };
+		04F957142230C7DD00BCD27B /* CGFImageBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F957132230C7DD00BCD27B /* CGFImageBrowserCell.m */; };
+		04F957172230EDF900BCD27B /* CGFImageBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F957162230EDF900BCD27B /* CGFImageBrowserView.m */; };
+		04F957192230FDA200BCD27B /* IMG_0531.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 04F957182230FDA200BCD27B /* IMG_0531.JPG */; };
 		5B19DC2EFF07B02D74EBAF59 /* libPods-CGFImageBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 864B7FABBB29D8C8BD2C0DF9 /* libPods-CGFImageBrowser.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,13 @@
 		044B7C9A221D4A7000103D21 /* CGFImageBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGFImageBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044B7C9E221D4A7000103D21 /* CGFImageBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGFImageBrowserUITests.m; sourceTree = "<group>"; };
 		044B7CA0221D4A7000103D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F9570F2230C6A100BCD27B /* CGFImageBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGFImageBrowserViewController.h; sourceTree = "<group>"; };
+		04F957102230C6A100BCD27B /* CGFImageBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGFImageBrowserViewController.m; sourceTree = "<group>"; };
+		04F957122230C7DD00BCD27B /* CGFImageBrowserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGFImageBrowserCell.h; sourceTree = "<group>"; };
+		04F957132230C7DD00BCD27B /* CGFImageBrowserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGFImageBrowserCell.m; sourceTree = "<group>"; };
+		04F957152230EDF900BCD27B /* CGFImageBrowserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGFImageBrowserView.h; sourceTree = "<group>"; };
+		04F957162230EDF900BCD27B /* CGFImageBrowserView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGFImageBrowserView.m; sourceTree = "<group>"; };
+		04F957182230FDA200BCD27B /* IMG_0531.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0531.JPG; sourceTree = "<group>"; };
 		864B7FABBB29D8C8BD2C0DF9 /* libPods-CGFImageBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGFImageBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E94800F89B38310A039A27 /* Pods-CGFImageBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGFImageBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGFImageBrowser/Pods-CGFImageBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		ECFD1B22AD6FD8E46FB62A75 /* Pods-CGFImageBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGFImageBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGFImageBrowser/Pods-CGFImageBrowser.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +119,8 @@
 		044B7C79221D4A6F00103D21 /* CGFImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				04F957182230FDA200BCD27B /* IMG_0531.JPG */,
+				04F9570E2230C65000BCD27B /* Classes */,
 				044B7C7A221D4A6F00103D21 /* AppDelegate.h */,
 				044B7C7B221D4A6F00103D21 /* AppDelegate.m */,
 				044B7C7D221D4A6F00103D21 /* ViewController.h */,
@@ -137,6 +150,19 @@
 				044B7CA0221D4A7000103D21 /* Info.plist */,
 			);
 			path = CGFImageBrowserUITests;
+			sourceTree = "<group>";
+		};
+		04F9570E2230C65000BCD27B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04F9570F2230C6A100BCD27B /* CGFImageBrowserViewController.h */,
+				04F957102230C6A100BCD27B /* CGFImageBrowserViewController.m */,
+				04F957122230C7DD00BCD27B /* CGFImageBrowserCell.h */,
+				04F957132230C7DD00BCD27B /* CGFImageBrowserCell.m */,
+				04F957152230EDF900BCD27B /* CGFImageBrowserView.h */,
+				04F957162230EDF900BCD27B /* CGFImageBrowserView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		439482013A4E47196A904A71 /* Frameworks */ = {
@@ -260,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F957192230FDA200BCD27B /* IMG_0531.JPG in Resources */,
 				044B7C87221D4A7000103D21 /* LaunchScreen.storyboard in Resources */,
 				044B7C84221D4A7000103D21 /* Assets.xcassets in Resources */,
 				044B7C82221D4A6F00103D21 /* Main.storyboard in Resources */,
@@ -312,9 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F957112230C6A100BCD27B /* CGFImageBrowserViewController.m in Sources */,
 				044B7C7F221D4A6F00103D21 /* ViewController.m in Sources */,
+				04F957172230EDF900BCD27B /* CGFImageBrowserView.m in Sources */,
 				044B7C8A221D4A7000103D21 /* main.m in Sources */,
 				044B7C7C221D4A6F00103D21 /* AppDelegate.m in Sources */,
+				04F957142230C7DD00BCD27B /* CGFImageBrowserCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SGV8QBPM82;
 				INFOPLIST_FILE = CGFImageBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,6 +538,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SGV8QBPM82;
 				INFOPLIST_FILE = CGFImageBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
