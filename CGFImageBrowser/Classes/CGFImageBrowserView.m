@@ -105,4 +105,8 @@ static NSInteger const CGFMinimunZoomScale = 1;
 //    self.imageView.center = CGPointMake(scrollView.contentSize.width * 0.5 + offsetX, scrollView.contentSize.height * 0.5 + offsetY);
 }
 
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    NSLog(@"正在托动");
+}
+
 @end
